@@ -1,0 +1,461 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #e4e4e4;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border-bottom: lightgrey 1px solid;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav a:visited{
+    text-decoration: none;
+}
+
+.homebutton{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+    color: black;
+    border-radius: 23px;
+    padding-left: 13px;
+    padding-right: 13px;
+    transition: 0.3s ease;
+}
+
+.homebutton:hover{
+    background-color: black;
+    color: white;
+}
+
+.myfollowing{
+    margin-left: 2vw;
+    font-size: 2vh;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 23px;
+    transition: 0.3s ease;
+}
+
+.myfollowing:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.dropdown:last-of-type{
+    margin-left: auto;
+    margin-right: 2vw;
+    margin-top: 3px;
+    transition: 0.3s ease;
+}
+
+.drpMenu{
+    display: none;
+    background-color: lightgrey;
+    right: 2vw;
+    position: absolute;
+    transition: 0.3s ease;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dropdown:hover .drpMenu{
+    display: block;
+    transition: 0.3s ease;
+}
+
+.dropdown img{
+    border-radius: 50%;
+    height: 5vh;
+
+}
+
+.upload{
+    margin-left: 20vw;
+}
+
+
+
+input[type="file"] {
+    display: none;
+}
+
+.imguploadbtn{
+    border-radius: 10px;
+    height: 3vh;
+    width: 8.1vw;
+    font-weight: bold;
+
+}
+.custom-file-upload{
+    font-size: 2vh;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 23px;
+    transition: 0.3s ease;
+    margin-right:5px;
+}
+
+.custom-file-upload:hover{
+    background-color: #c52323;
+    color: white;
+}
+
+.myaccount{
+    font-weight: bold;
+    color: black;
+    transition: 0.3s ease;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 2.6vh;
+
+}
+.myaccount:hover{
+    text-decoration: underline black;
+
+}
+
+.logoutform{
+    font-weight: bold;
+    color: black;
+    transition: 0.3s ease;
+    padding-bottom: 5px;;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 22px;
+
+}
+
+
+.logoutbtn{
+    height: 4vh;
+    width: 7vw;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.logoutbtn:hover{
+    background-color: #c52323;
+    color: white;
+}
+
+.main-content{
+    padding-top:7vh;
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.image img{
+    border-radius: 25px;
+    margin-right: 1vh;
+    margin-top: 1vh;
+    transition: 0.3s ease;
+}
+
+.image img:hover{
+    -webkit-box-shadow: -1px 2px 15px 5px #bf848e;
+    box-shadow: -1px 2px 7px 4px #670012;
+}
+
+.image a{
+    text-decoration: none;
+}
+
+.pfpImgAcc{
+    margin-top: 1.6vh;
+}
+
+.imgcontainer{
+    background-color: grey;
+
+}
+
+.pfpImgAcc img{
+    border-radius: 10px;
+    border: #670012 3px solid;
+}
+
+
+
+.accountImgs{
+    margin-top: 2vh;
+}
+
+.accountImgs img{
+    border-radius: 25px;
+    margin-right: 1vh;
+    margin-top: 1vh;
+    transition: 0.3s ease;
+}
+
+.accountImgs img:hover{
+    -webkit-box-shadow: -1px 2px 15px 5px #bf848e;
+    box-shadow: -1px 2px 7px 4px #670012;
+}
+
+.accountImgs a{
+    text-decoration: none;
+}
+.deinebilder{
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+
+.imgcontainer{
+    background-color: #d0cdcd;;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imageOpen img{
+    max-width: 52vw;
+    min-width: 30vw;
+    border-right: #a21b1b 4px solid;
+}
+
+
+.imagepfp{
+    border-radius: 50%;
+    height: 5vh;
+
+
+}
+
+.imgInfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.commentPfp{
+    border-radius: 50%;
+    height: 3vh;
+    margin-left: 1vh;
+}
+.commentDisplay{
+    background-color: white;
+    margin-top: 2vh;
+}
+
+.commentUser{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.commentSection{
+    margin-top: 3vh;
+}
+
+.commentField{
+    height: 6vh;
+    width: 24vh;
+    border: none;
+    margin-bottom: 0.4vh;
+}
+
+.commentForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.fertig{
+    border: none;
+    width: fit-content;
+    height: 3vh;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.fertig:hover{
+    background-color: black;
+    color: white;
+}
+
+.imgProfile{
+    margin-right: 3vh;
+    text-decoration: none;
+    margin-left: 1vw;
+    font-weight: bold;
+    color: black;
+    border-radius: 23px;
+}
+
+.commentUser a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.commentText{
+    margin-left: 1vh;
+    margin-top: 0vh;
+}
+
+.backbutton button{
+    border: none;
+    border-radius: 30px;
+
+    width: 5vw;
+    color: black;
+    margin-left: -14vh;
+    transition: 0.3s ease;
+    font-size: 4vh;
+
+}
+
+.backbutton button:hover{
+    color: white;
+    background-color: black;
+}
+
+.loginlink {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+    color: black;
+    border-radius: 23px;
+    padding-left: 13px;
+    padding-right: 13px;
+    transition: 0.3s ease;
+}
+.loginlink:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.registerlink{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+    color: black;
+    border-radius: 23px;
+    padding-left: 13px;
+    padding-right: 13px;
+    transition: 0.3s ease;
+}
+
+.registerlink:hover{
+    background-color: black;
+    color: white;
+}
+
+.register-area{
+    margin-top: 19vh;
+    background: #cacaca;
+    -webkit-box-shadow: -1px 2px 15px 5px #000000;
+    box-shadow: 0px 11px 9px 2px #000000;
+    border-radius: 21px;
+}
+
+.register-area form{
+    padding: 1vw;
+}
+
+.register-button{
+    margin-top: 1vh;
+    border: none;
+    width: fit-content;
+    height: 3vh;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.register-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.login-area{
+    margin-top: 19vh;
+    background: #cacaca;
+    -webkit-box-shadow: -1px 2px 15px 5px #000000;
+    box-shadow: 0px 11px 9px 2px #000000;
+    border-radius: 21px;
+}
+
+.login-area form{
+    padding: 1vw;
+}
+
+.login-button{
+    margin-top: 1vh;
+    border: none;
+    width: fit-content;
+    height: 3vh;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.login-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.pfpImgp{
+    border-radius: 10px;
+    border: #670012 3px solid;
+}
+
+.followButton input[type="submit"] {
+    margin-top: 1vh;
+    border: black 1px solid;
+    width: fit-content;
+    height: 3vh;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+
+.followButton input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+
